@@ -108,7 +108,7 @@ span.m-toggle-icon:after{top: -14px;}
 		width: 200px;
 		height: 250px;
 		background-color: #F44336;
-		transform: translateY(-316px);
+		transform: translateX(100%);
 		transition: all 0.3s ease-in-out;
 	}
 
