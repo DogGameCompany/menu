@@ -3,6 +3,7 @@ body{
 	padding:0;
 	background-color:#fff;
 	font-family:gugi;
+	overflow-x: hidden;
 }
 
 header{
