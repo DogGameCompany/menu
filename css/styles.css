@@ -101,3 +101,23 @@ header{
 	background-color:#f9f9f9;
 	border-left:3px solid #3498db;
 }
+
+.suivant{
+	margin-top: 200px;
+}
+
+.suivant a{
+	font-family: baloo bhai;
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	padding: 10px;
+	border: 2px solid transparent;
+	transition: 0.3s;
+}
+
+.suivant a:hover{
+	color: red;
+	background-color: white;
+	border: 2px solid red;
+}
