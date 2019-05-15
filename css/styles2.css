@@ -1,5 +1,7 @@
 body{
 	background-color: silver;
+	padding: 0;
+	margin: 0;
 }
 
 header nav{
@@ -48,4 +50,51 @@ header nav ul li ul li a{
 
 header nav ul li ul li a:hover{
 	color: white;
+}
+
+h1.suivant, h1.precedent{
+	margin-top: 200px;
+}
+
+h1.suivant a{
+	font-family: baloo bhai;
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	padding: 10px;
+	border: 2px solid transparent;
+	transition: 0.3s;
+}
+
+h1.suivant a:hover{
+	color: red;
+	background-color: white;
+	border: 2px solid red;
+}
+
+h1.precedent a{
+	font-family: baloo bhai;
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	padding: 10px;
+	border: 2px solid transparent;
+	transition: 0.3s;
+}
+
+h1.precedent a:hover{
+	color: red;
+	background-color: white;
+	border: 2px solid red;
+}
+
+h1.point{
+	color: silver;
+}
+
+h1.nfp{
+	margin-top: 100px;
+	color: blue;
+	font-family: roboto;
+	background-color: yellow;
 }

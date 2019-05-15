@@ -2,7 +2,7 @@ html, body{
 	margin: 0;
 	padding: 0;
 	font-family: lato;
-	background: rgba(0, 0, 0, 0.5);
+	background: #ededed;
 	overflow-x: hidden;
 }
 
@@ -123,4 +123,24 @@ span.m-toggle-icon:after{top: -14px;}
 	.m-nav-toggle{
 		display: flex;
 	}
+}
+
+h1.precedent{
+	margin-top: 200px;
+}
+
+h1.precedent a{
+	font-family: baloo bhai;
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	padding: 10px;
+	border: 2px solid transparent;
+	transition: 0.3s;
+}
+
+h1.precedent a:hover{
+	color: red;
+	background-color: white;
+	border: 2px solid red;
 }

@@ -14,13 +14,6 @@ body{
 	box-shadow: 2px 2px 2px silver;
 }
 
-.menu-vertical .avatar{
-	background-image: url(../img/avatar.jfif);
-	width: 225px;
-	height: 225px;
-	margin: 25px auto;
-}
-
 .menu-vertical h3{
 	text-align: center;
 	color: #444;
@@ -40,4 +33,41 @@ body{
 	font-size: 20px;
 	display: block;
 	padding: 15px;
+}
+
+h1.suivant, h1.precedent{
+	margin-top: 50px;
+	margin-left: 350px;
+}
+
+h1.suivant a{
+	font-family: baloo bhai;
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	padding: 10px;
+	border: 2px solid transparent;
+	transition: 0.3s;
+}
+
+h1.suivant a:hover{
+	color: red;
+	background-color: white;
+	border: 2px solid red;
+}
+
+h1.precedent a{
+	font-family: baloo bhai;
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	padding: 10px;
+	border: 2px solid transparent;
+	transition: 0.3s;
+}
+
+h1.precedent a:hover{
+	color: red;
+	background-color: white;
+	border: 2px solid red;
 }
